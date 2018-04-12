@@ -86,6 +86,17 @@ hunter_add_version(
     8994a92cc42a099bd3e19656acb939d9a53fd926
 )
 
+hunter_add_version(
+    PACKAGE_NAME
+    gauze
+    VERSION
+    0.3.3
+    URL
+    "https://github.com/hunter-packages/gauze/archive/78e52c4da916e93b4e806dbf5032d99d28b9ea8c.zip"
+    SHA1
+    52acc6ec7eae37d2e1ed2c1dbefc125cc33ddd56
+)
+
 hunter_pick_scheme(DEFAULT url_sha1_cmake)
 hunter_cacheable(gauze)
 hunter_cmake_args(gauze CMAKE_ARGS GAUZE_BUILD_TESTS=OFF)
