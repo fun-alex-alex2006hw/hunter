@@ -14,9 +14,9 @@ hunter_add_version(
     VERSION
     55.1-p0
     URL
-    "https://github.com/hunter-packages/icu/archive/d868de031332e84aacaf143cd094cda2438c3ddc.zip"
+    "https://github.com/hunter-packages/icu/archive/b872323b35d131c6a09eb6557bf03910088541bb.zip"
     SHA1
-    90b536e7aaa0243bb78e2f08e71d4ec2f8d626fd
+    3448c29889b1a14eebbd6fd224aaee5fcd843644
 )
 
 hunter_pick_scheme(DEFAULT url_sha1_cmake)
